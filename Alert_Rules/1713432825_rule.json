@@ -1,0 +1,27 @@
+{
+    "rule_id": 3,
+    "rule_name": "Test Alert 3",
+    "tenant_id": "fe038303-3c56-4a6a-a251-c26a328d11c6",
+    "conditions": [
+        {
+            "condition_id": 3,
+            "condition_name": "condition 3",
+            "asset_id": [
+                "PTG_003"
+            ],
+            "join_condition": "and",
+            "parameter": "pressure",
+            "operator": "<",
+            "class": null,
+            "threshold": 2378,
+            "duration": 300,
+            "rule_run_frequency": 1,
+            "risk_registers": [
+                ""
+            ],
+            "sensor_type": "pt_gauge",
+            "severity": "medium"
+        }
+    ],
+    "operation": "create"
+}
