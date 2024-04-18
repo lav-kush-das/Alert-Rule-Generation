@@ -13,8 +13,8 @@
             "parameter": "pressure",
             "operator": ">",
             "class": null,
-            "threshold": 3707,
-            "duration": 300,
+            "threshold": 2846,
+            "duration": 180,
             "rule_run_frequency": 1,
             "risk_registers": [
                 ""

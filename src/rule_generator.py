@@ -14,7 +14,7 @@ if(parent_directory not in sys.path):
     sys.path.insert(0,parent_directory)
 
 
-from Experiment.random_number import rand_num_generator
+from Experiment.random_number import threshold_generator,duration_generator
 
 join_condition=["and","or"]
 operator=[">","<"]
@@ -36,8 +36,8 @@ for i in range(5):
             "parameter": "pressure",
             "operator": random.choice(operator),
             "class": None,
-            "threshold": rand_num_generator(),
-            "duration": 300,
+            "threshold": threshold_generator(),
+            "duration": duration_generator(),
             "rule_run_frequency": 1,
             "risk_registers": [
                 ""
