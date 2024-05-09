@@ -9,12 +9,12 @@
             "asset_id": [
                 "PTG_001"
             ],
-            "join_condition": "or",
+            "join_condition": "and",
             "parameter": "pressure",
-            "operator": ">",
+            "operator": "<",
             "class": null,
-            "threshold": 2000,
-            "duration": 300,
+            "threshold": 3356,
+            "duration": 120,
             "rule_run_frequency": 1,
             "risk_registers": [
                 ""
